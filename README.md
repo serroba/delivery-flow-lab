@@ -2,6 +2,8 @@
 
 Static TypeScript frontend for exploring product-development queues across sequential stages such as shaping, build, review, and release.
 
+Live site: [serroba.github.io/delivery-flow-lab](https://serroba.github.io/delivery-flow-lab/)
+
 ## What it does
 
 - Models left-to-right workflow stages as queues.
