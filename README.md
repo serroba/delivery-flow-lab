@@ -21,6 +21,18 @@ npm run dev
 npm run build
 ```
 
+## Quality checks
+
+```bash
+npm run lint
+npm run typecheck
+npm run test
+npm run test:coverage
+npm run check
+```
+
+The queueing math now lives in `src/model.ts` and is covered by Vitest tests in `tests/model.test.ts`.
+
 The project includes a GitHub Pages workflow in `.github/workflows/deploy.yml`.
 
 ## Publish on GitHub Pages
